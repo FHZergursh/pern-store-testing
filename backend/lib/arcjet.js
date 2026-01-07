@@ -13,7 +13,6 @@ export const aj = arcjet({
         "CATEGORY:SEARCH_ENGINE"
       ]
     }),
-
     tokenBucket({
       mode:"LIVE",
       refillRate: 5, 
