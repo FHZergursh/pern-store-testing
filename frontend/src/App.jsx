@@ -9,6 +9,7 @@ const App = () => {
     <div className='min-h-screen bg-base-200 transition-colors duration-300"'>
       <Navbar />
 
+
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/product/:id" element={<ProductPage />} />
